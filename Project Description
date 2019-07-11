@@ -1,0 +1,76 @@
+# AMazing-CSCB58
+A Verilog maze game running on the Altera DE2 Board. Project made by 4 students at the UofT Scarborough.
+
+CSCB58 Project Report: Summer 2019
+
+Team Member A
+-------------
+First Name: Anirudha
+Last Name: Kanodia
+
+Team Member B
+-------------
+First Name: Borui
+Last Name: Li
+
+Team Member C
+-------------
+First Name: Wisam
+Last Name: Mohiuddin
+
+Team Member D
+-------------
+First Name: Naivil
+Last Name: Patel
+
+
+Project Plan
+--------
+
+Project Title: AMazing
+
+
+Provide a one paragraph description of your project:
+
+- Our goal for this project is to build a maze game with some very neat features. The objective of the game is to navigate through the maze to reach its end. To spice things up a bit, we are using external devices for actual movements in the game. These external devices include gyroscope and accelerometer to control player movement. The speed and direction of which the user moves this external device will reflect on the screen as the user navigates through the maze. We also intend to add levels to this game as well as a timer to track the time taken to finish the maze. 
+
+What is your plan for the first week?
+
+- In the first week, we plan on establishing a good overall structure to the maze. This includes building the maze itself. With a good base, it will be easier for us to make new changes to the game if required. We will also begin working on the player object (What actually navigates through the maze) as well as ways to connect it to the gyroscope and accelerometer. However, the main aim of this lab is to build the maze.
+
+What is your plan for the second week?
+
+- With the maze established in the previous week, we will now move on to implement the user object into the game. To start off, we will navigate the user object using the 4 keys on the DE2 board. However, we also intend to introduce the external device for user object movement in this week.
+
+What is your plan for the third week?
+
+- If everything works out, we should have a simple maze, a user object and the external device ready. During this week, we add visual effects to the game (Start screen etc) as well as introduce other levels and additional functionality if time permits.
+
+What is your backup plan if things don't work out as planned?
+
+- Since we are building up from just the maze, introducing new changes will not be too dificult. The one major aspect that can go wrong with this project is the external device responsible for user movement. As a last resort, we could swtich to keys on the de2 board for user movement.
+
+Weekly Reports
+--------------
+<In this space, provide a report each week of what worked and what didn't, and what (if any) changes were made to your proposal)>
+
+
+[This is an example of a report where things didn't go so well.]
+Week 1: 
+	We added and tested the sensors and the main FSM. 
+	The distance sensor we had intended to use didn't work as expected (wasn't precise enough at further distances, only seems to work accurately within 5-10cm), so instead we've decided to change the project to use a light sensor instead.
+	Had trouble getting the FSM to work (kept getting stuck in state 101, took longer to debug than expected), so we may not be able to add the high score feature. We have updated that in the project description as an optional feature.
+
+
+
+References
+----------
+<In this space clearly indicate all external sources used in this project. If you used anyone else's code (from previous B58 projects or other sources) clearly indicate what you used and where you found it. Usage of any material not credited in this space will be considered plagiarism. It is absolutely OK and expected to update this section as you progress in the projected.
+
+Make sure to document what you added on top of the existing work, especially if you work with a previous project. What is it that YOU added?>
+
+
+
+Repo & Video
+------------
+<At the end of the project, provide links to your code repository and presentation video (and passwords if not public), if you don't want us to publish this info on future course websites, just say so here>
